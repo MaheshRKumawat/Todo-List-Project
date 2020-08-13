@@ -1,0 +1,84 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("cool-background.png");
+}
+
+#h1{
+	background-color: #373538;
+	color: #F5F5F5;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	background: #C0C0C0;
+	height: 40px;
+	line-height: 40px;
+}
+
+ul li:nth-child(2n){
+	background: #DCDCDC;
+}
+
+.fa-plus{
+	float: right;
+}
+.my_navbar_container{
+	margin-left:10px;
+	margin-right: 20px;
+}
+
+span{
+	background-color: green;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	opacity: 0;
+	transition: 0.2s linear;
+}
+
+li:hover span{
+	width: 40px;	
+	opacity: 1.0;
+}
+
+
+input{
+	font-size: 18px;
+	background-color: #F5F5F5;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid #F5F5F5;
+	outline: none;
+}
+
+input:focus{
+	border: 3px solid #F5F5F5;
+	outline: none;
+}
+
+#my_todo_container{
+	width: 400px;
+	margin: 100px auto;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.completed{
+	color: 	#808080;
+	text-decoration: line-through;
+}
+
